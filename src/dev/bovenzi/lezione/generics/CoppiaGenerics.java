@@ -1,10 +1,10 @@
-package com.prof.esempi;
+package dev.bovenzi.lezione.generics;
 
-public class Coppia <T,K>{
+public class CoppiaGenerics<T extends Number, K extends Number>{
     private T primo;
     private K secondo;
 
-    public Coppia(T primo, K secondo) {
+    public CoppiaGenerics(T primo, K secondo) {
         this.primo = primo;
         this.secondo = secondo;
     }
@@ -27,7 +27,7 @@ public class Coppia <T,K>{
 
     @Override
     public String toString() {
-        return "Coppia{" +
+        return "CoppiaGenerics{" +
                 "primo=" + primo +
                 ", secondo=" + secondo +
                 '}';

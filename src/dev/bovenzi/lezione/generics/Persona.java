@@ -1,4 +1,4 @@
-package com.prof.esempi;
+package dev.bovenzi.lezione.generics;
 
 public class Persona {
     private String nome;
