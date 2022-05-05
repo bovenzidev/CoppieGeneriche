@@ -1,27 +1,27 @@
 package com.prof.esempi;
 
-public class Coppia <T1,T2>{
-    private T1 primo;
-    private T2 secondo;
+public class Coppia <T,K>{
+    private T primo;
+    private K secondo;
 
-    public Coppia(T1 primo, T2 secondo) {
+    public Coppia(T primo, K secondo) {
         this.primo = primo;
         this.secondo = secondo;
     }
 
-    public T1 getPrimo() {
+    public T getPrimo() {
         return primo;
     }
 
-    public void setPrimo(T1 primo) {
+    public void setPrimo(T primo) {
         this.primo = primo;
     }
 
-    public T2 getSecondo() {
+    public K getSecondo() {
         return secondo;
     }
 
-    public void setSecondo(T2 secondo) {
+    public void setSecondo(K secondo) {
         this.secondo = secondo;
     }
 
